@@ -1,0 +1,13 @@
+[package]
+name = "candle-roberta"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.8.0" }
+candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.8.0" }
+hf-hub = "0.3.2"
+serde = "1.0.215"
+serde_json = "1.0.132"
+tokenizers = "0.20.3"
